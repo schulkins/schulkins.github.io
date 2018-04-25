@@ -2723,7 +2723,7 @@
 		text-align: right;
 		top: 2em;
 		width: 100%;
-		z-index: 10001;
+		z-index: 1;
 	}
 
 		#header .inner {
@@ -2775,7 +2775,7 @@
 				text-decoration: none;
 				height: 4em;
 				width: 4em;
-				z-index: 10003;
+				z-index: 2;
 			}
 
 				#header a.navPanelToggle .fa {
@@ -2853,7 +2853,7 @@
 		max-width: 80%;
 		width: 20em;
 		padding: 0.5em 1.25em;
-		z-index: 10010;
+		z-index: 4;
 	}
 
 		#navPanel.visible {
@@ -2947,7 +2947,7 @@
 
 		#banner .inner {
 			position: relative;
-			z-index: 10005;
+			z-index: 3;
 		}
 
 		#banner h1 {
@@ -3125,7 +3125,7 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0;
+		padding: 1em 0;
 		background: #4a7b86;
 		color: #fff;
 		text-align: center;
@@ -3160,7 +3160,7 @@
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 0;
+				padding: 1em 0;
 			}
 
 		}
@@ -3168,7 +3168,7 @@
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 0;
+				padding: 1em 0;
 			}
 
 		}
