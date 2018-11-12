@@ -1,13 +1,13 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import "https://fonts.googleapis.com/css?family=Voltaire";
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro|Mr+Dafoe";
 
 /*
 	Projection by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 	
-	Main accent: #6cc091; #28680c;
+	Main accent: #6cc091; #1a99aa;
 	Accent dark: #4bae77; #00829b;
 	Accent light: #8dcca9; #1db8ce;
 	Accent lighter: #c4e5d3; #bde5dd;
@@ -1594,8 +1594,8 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #000;
-		font-family: "Voltaire", Arial, Helvetica, sans-serif;
+		color: #333;
+		font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 400;
 		line-height: 1.65;
@@ -1604,7 +1604,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1612,7 +1612,7 @@
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1620,7 +1620,7 @@
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1628,7 +1628,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1636,13 +1636,13 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 		}
 
 	a {
-		color: #28680c;
+		color: #1a99aa;
 		text-decoration: underline;
 	}
 
@@ -1662,22 +1662,23 @@
 	p {
 		margin: 0 0 2em 0;
 	}
+        
+        p.book {
+            margin: 0;
+            text-indent: 2em;
+        }
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000;
+		color: #555;
 		font-weight: 400;
 		line-height: 1.5;
-		margin: 0 0 0.5em 0;
+		margin: 0 0 1em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
 		}
-
-	h1 {
-		font-size: 2.5em;
-	}
 
 	h2 {
 		font-size: 1.85em;
@@ -1987,9 +1988,10 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #28680c;
+		background: #1a99aa;
 		border-radius: 10px;
 		border: none;
+		border: solid 2px #1db8ce;
 		color: #fff;
 		display: block;
 		outline: 0;
@@ -2116,16 +2118,16 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #28680c;
-			border-color: #28680c;
+			background: #1a99aa;
+			border-color: #1a99aa;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #28680c;
-			box-shadow: 0 0 0 1px #28680c;
+			border-color: #1a99aa;
+			box-shadow: 0 0 0 1px #1a99aa;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2538,14 +2540,16 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		box-shadow: inset 0 0 0 3px #28680c;
-		color: #28680c !important;
+		box-shadow: inset 0 0 0 3px #1a99aa;
+		color: #1a99aa !important;
 		border-radius: 30px;
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 1em;
-		height: 2.75em;
+		font-size: .75em;
+		font-weight: 400;
+		height: 3.75em;
+		line-height: 3.85em;
 		letter-spacing: 2px;
 		padding: 0 2em;
 		text-align: center;
@@ -2651,7 +2655,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #28680c;
+			background-color: #1a99aa;
 			color: #ffffff !important;
 		}
 
@@ -2707,7 +2711,7 @@
 	}
 
 		.subpage #header {
-			background: #28680c;
+			background: #1a99aa;
 			top: 0;
 			height: 44px;
 			line-height: 44px;
@@ -2848,7 +2852,7 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #28680c;
+		background: #1a99aa;
 		color: #e5f4ed;
 		height: 100%;
 		max-width: 80%;
@@ -2927,13 +2931,13 @@
 
 	#banner {
 		padding: 3em 0 3em 0;
-		background-color: #28680c;
+		background-color: #1a99aa;
 		position: relative;
 	}
 
 		#banner:before {
 			content: '';
-			background-color: #28680c;
+			background-color: #1a99aa;
 			position: absolute;
 			width: 100%;
 			height: 100%;
@@ -2947,7 +2951,7 @@
 		}
 
 		#banner h1 {
-			font-family: 'Voltaire', cursive;
+			font-family: 'Mr Dafoe', cursive;
             font-size: 4em;
 			font-weight: 400;
 			color: #fff;
@@ -2964,7 +2968,7 @@
 		}
 
 		#banner .icon {
-			color: #28680c;
+			color: #1a99aa;
 			font-size: 2em;
 		}
 
@@ -3115,7 +3119,7 @@
 
 	#footer {
 		padding: 1em 0;
-		background: #28680c;
+		background: #1a99aa;
 		color: #fff;
 		text-align: center;
 	}
