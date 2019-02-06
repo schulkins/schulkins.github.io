@@ -1,20 +1,20 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro|Mr+Dafoe";
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
 
 /*
 	Projection by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 	
-	Main accent: #6cc091; #1a99aa;
-	Accent dark: #4bae77; #00829b;
-	Accent light: #8dcca9; #1db8ce;
-	Accent lighter: #c4e5d3; #bde5dd;
-	Accent transparent: rgba(10, 186, 181, 0.15);
-	Accent hover: #7ec89e; #0d98ba;
-	Accent active: #5ab884; #009baa;
-	Accent lightest (nav text): #daefe3; #e5f4ed;
+	Main accent: #6cc091; #accc98;
+	Accent dark: #4bae77; #6d9f56;
+	Accent light: #8dcca9; #6d9f56;
+	Accent lighter: #c4e5d3; #6d9f56;
+	Accent transparent: rgba(109, 159, 86, 0.15);
+	Accent hover: #7ec89e; #accc98;
+	Accent active: #5ab884; #accc98;
+	Accent lightest (nav text): #daefe3; #6d9f56;
 */
 
 /* Reset */
@@ -1642,7 +1642,7 @@
 		}
 
 	a {
-		color: #1a99aa;
+		color: #accc98;
 		text-decoration: underline;
 	}
 
@@ -1658,11 +1658,16 @@
 	em, i {
 		font-style: italic;
 	}
+    
+    i {
+        color: #6d9f56;
+        font-size: 2em;
+    }
 
 	p {
 		margin: 0 0 2em 0;
 	}
-        
+    
         p.book {
             margin: 0;
             text-indent: 2em;
@@ -1806,7 +1811,7 @@
 		}
 
 	section.wrapper, article.wrapper {
-		padding: 6em 0;
+		padding: 3em 0;
 	}
 
 		section.wrapper header, article.wrapper header {
@@ -1988,10 +1993,10 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #1a99aa;
+		background: #accc98;
 		border-radius: 10px;
 		border: none;
-		border: solid 2px #1db8ce;
+		border: solid 2px #6d9f56;
 		color: #fff;
 		display: block;
 		outline: 0;
@@ -2104,7 +2109,7 @@
 			input[type="radio"] + label:before {
 				background: rgba(144, 144, 144, 0.075);
 				border-radius: 0;
-				border: solid 1px #1db8ce;
+				border: solid 1px #6d9f56;
 				content: '';
 				display: inline-block;
 				height: 1.65em;
@@ -2118,16 +2123,16 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #1a99aa;
-			border-color: #1a99aa;
+			background: #accc98;
+			border-color: #accc98;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #1a99aa;
-			box-shadow: 0 0 0 1px #1a99aa;
+			border-color: #accc98;
+			box-shadow: 0 0 0 1px #accc98;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2139,27 +2144,27 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #bde5dd !important;
+		color: #6d9f56 !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #bde5dd !important;
+		color: #6d9f56 !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #bde5dd !important;
+		color: #6d9f56 !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #bde5dd !important;
+		color: #6d9f56 !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: #bde5dd !important;
+		color: #6d9f56 !important;
 		opacity: 1.0;
 	}
 
@@ -2184,7 +2189,7 @@
 		}
 
 		.box.person {
-			border: solid 1px #1db8ce;
+			border: solid 1px #6d9f56;
 			padding: 3em 1.5em;
 		}
 
@@ -2329,6 +2334,7 @@
 			ul.icons li {
 				display: inline-block;
 				padding: 0 1em 0 0;
+                vertical-align: middle;
 			}
 
 				ul.icons li:last-child {
@@ -2540,8 +2546,8 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		box-shadow: inset 0 0 0 3px #1a99aa;
-		color: #1a99aa !important;
+		box-shadow: inset 0 0 0 3px #6d9f56;
+		color: #6d9f56 !important;
 		border-radius: 30px;
 		border: 0;
 		cursor: pointer;
@@ -2563,7 +2569,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(10, 186, 181, 0.15);
+			background-color: rgba(109, 159, 86, 0.15);
 		}
 
 		input[type="submit"]:active,
@@ -2571,7 +2577,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(10, 186, 181, 0.15);
+			background-color: rgba(109, 159, 86, 0.15);
 		}
 
 		input[type="submit"].icon,
@@ -2605,7 +2611,7 @@
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.8em;
+			font-size: 0.6em;
 		}
 
 		input[type="submit"].big,
@@ -2631,7 +2637,7 @@
 			input[type="button"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #6ab1c0;
+				background-color: #accc98;
 			}
 
 			input[type="submit"].alt:active,
@@ -2639,7 +2645,7 @@
 			input[type="button"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background-color: #6ab1c0;
+				background-color: #accc98;
 			}
 
 			input[type="submit"].alt.icon:before,
@@ -2655,7 +2661,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #1a99aa;
+			background-color: #6d9f56;
 			color: #ffffff !important;
 		}
 
@@ -2664,7 +2670,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #6ab1c0;
+				background-color: #accc98;
 			}
 
 			input[type="submit"].special:active,
@@ -2672,7 +2678,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #009baa;
+				background-color: #accc98;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2711,7 +2717,7 @@
 	}
 
 		.subpage #header {
-			background: #1a99aa;
+			background: #accc98;
 			top: 0;
 			height: 44px;
 			line-height: 44px;
@@ -2852,8 +2858,8 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #1a99aa;
-		color: #e5f4ed;
+		background: #accc98;
+		color: #6d9f56;
 		height: 100%;
 		max-width: 80%;
 		width: 20em;
@@ -2871,8 +2877,8 @@
 		}
 
 		#navPanel a:not(.close) {
-			border-top: solid 1px #1db8ce;
-			color: #e5f4ed;
+			border-top: solid 1px #6d9f56;
+			color: #6d9f56;
 			font-weight: 600;
 			display: block;
 			padding: 0.75em 0;
@@ -2892,7 +2898,7 @@
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
-			color: #e5f4ed;
+			color: #6d9f56;
 			cursor: pointer;
 			display: block;
 			height: 4em;
@@ -2930,14 +2936,14 @@
 /* Banner */
 
 	#banner {
-		padding: 3em 0 3em 0;
-		background-color: #1a99aa;
+		padding: 3em 0 1em 0;
+		background-color: #accc98;
 		position: relative;
 	}
 
 		#banner:before {
 			content: '';
-			background-color: #1a99aa;
+			background-color: #accc98;
 			position: absolute;
 			width: 100%;
 			height: 100%;
@@ -2951,26 +2957,31 @@
 		}
 
 		#banner h1 {
-			font-family: 'Mr Dafoe', cursive;
-            font-size: 4em;
+			font-size: 2.5em;
 			font-weight: 400;
 			color: #fff;
 			line-height: 1em;
-			margin: 0;
+			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
 
 		#banner h3 {
 			font-weight: 400;
 			color: #fff;
-			margin: 0 0 1em 0;
+			margin: 0 0 0.5em 0;
 			font-size: 1.5em;
 		}
 
 		#banner .icon {
-			color: #1a99aa;
+			color: #accc98;
 			font-size: 2em;
 		}
+        
+        #banner i {
+            color: #fff;
+            font-size: 1.25em;
+            margin: 0.5em;
+        }
 
 		#banner p {
 			font-size: 1em;
@@ -3025,15 +3036,15 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 6em 0 6em 0;
+				padding: 3em 0 1em 0;
 			}
 
 				#banner .inner {
-					padding-top: 6em;
+					/* padding-top: 6em; */
 				}
 
 				#banner h1 {
-					font-size: 3em;
+					font-size: 2.5em;
 				}
 
 				#banner h3 {
@@ -3050,11 +3061,11 @@
 
 			#banner {
 				background-attachment: scroll;
-				padding: 5em 0 4em 0;
+				padding: 3em 0 1em 0;
 			}
 
 				#banner .inner {
-					padding-top: 4em;
+					/* padding-top: 4em; */
 				}
 
 				#banner h1 {
@@ -3075,11 +3086,11 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 4em 0 3em 0;
+				padding: 3em 0 1em 0;
 			}
 
 				#banner .inner {
-					padding-top: 3em;
+					/* padding-top: 3em; */
 				}
 
 				#banner h1 {
@@ -3110,7 +3121,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner h1 {
-				font-size: 1.5em;
+				font-size: 2em;
 			}
 
 		}
@@ -3118,12 +3129,16 @@
 /* Footer */
 
 	#footer {
-		padding: 1em 0;
-		background: #1a99aa;
+		padding: 2em 0;
+		background: #accc98;
 		color: #fff;
 		text-align: center;
 	}
 
+		#footer h2 {
+			color: #FFF;
+		}
+        
 		#footer h3 {
 			color: #FFF;
 			margin-bottom: 2em !important;
@@ -3137,7 +3152,7 @@
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
-			margin: 0 0 2em 0;
+			margin: 2em 0;
 			padding: 0;
 		}
 

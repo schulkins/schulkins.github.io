@@ -1,20 +1,20 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600";
+@import "https://fonts.googleapis.com/css?family=Peralta|Open+Sans";
 
 /*
 	Projection by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 	
-	Main accent: #6cc091; #4a7b86;
-	Accent dark: #4bae77; #37626c;
-	Accent light: #8dcca9; #57999e;
-	Accent lighter: #c4e5d3; #a1dade;
-	Accent transparent: rgba(74, 123, 134, 0.15);
-	Accent hover: #7ec89e; #539094;
-	Accent active: #5ab884; #3a7584;
-	Accent lightest (nav text): #daefe3; #cbeef1;
+	Main accent: #6cc091; #1a99aa;
+	Accent dark: #4bae77; #00829b;
+	Accent light: #8dcca9; #1db8ce;
+	Accent lighter: #c4e5d3; #bde5dd;
+	Accent transparent: rgba(10, 186, 181, 0.15);
+	Accent hover: #7ec89e; #0d98ba;
+	Accent active: #5ab884; #009baa;
+	Accent lightest (nav text): #daefe3; #e5f4ed;
 */
 
 /* Reset */
@@ -1642,7 +1642,7 @@
 		}
 
 	a {
-		color: #4a7b86;
+		color: #1a99aa;
 		text-decoration: underline;
 	}
 
@@ -1801,7 +1801,7 @@
 		}
 
 	section.wrapper, article.wrapper {
-		padding: 6em 0;
+		padding: 3em 0;
 	}
 
 		section.wrapper header, article.wrapper header {
@@ -1983,10 +1983,10 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #4a7b86;
+		background: #1a99aa;
 		border-radius: 10px;
 		border: none;
-		border: solid 2px #57999e;
+		border: solid 2px #1db8ce;
 		color: #fff;
 		display: block;
 		outline: 0;
@@ -2010,8 +2010,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #37626c;
-			box-shadow: 0 0 0 1px #37626c;
+			border-color: #00829b;
+			box-shadow: 0 0 0 1px #00829b;
 		}
 
 	.select-wrapper {
@@ -2099,7 +2099,7 @@
 			input[type="radio"] + label:before {
 				background: rgba(144, 144, 144, 0.075);
 				border-radius: 0;
-				border: solid 1px #57999e;
+				border: solid 1px #1db8ce;
 				content: '';
 				display: inline-block;
 				height: 1.65em;
@@ -2113,16 +2113,16 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #4a7b86;
-			border-color: #4a7b86;
+			background: #1a99aa;
+			border-color: #1a99aa;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4a7b86;
-			box-shadow: 0 0 0 1px #4a7b86;
+			border-color: #1a99aa;
+			box-shadow: 0 0 0 1px #1a99aa;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2134,27 +2134,27 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #a1dade !important;
+		color: #bde5dd !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #a1dade !important;
+		color: #bde5dd !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #a1dade !important;
+		color: #bde5dd !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #a1dade !important;
+		color: #bde5dd !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: #a1dade !important;
+		color: #bde5dd !important;
 		opacity: 1.0;
 	}
 
@@ -2179,7 +2179,7 @@
 		}
 
 		.box.person {
-			border: solid 1px #57999e;
+			border: solid 1px #1db8ce;
 			padding: 3em 1.5em;
 		}
 
@@ -2324,6 +2324,7 @@
 			ul.icons li {
 				display: inline-block;
 				padding: 0 1em 0 0;
+                vertical-align: middle;
 			}
 
 				ul.icons li:last-child {
@@ -2535,8 +2536,8 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		box-shadow: inset 0 0 0 3px #4a7b86;
-		color: #4a7b86 !important;
+		box-shadow: inset 0 0 0 3px #1a99aa;
+		color: #1a99aa !important;
 		border-radius: 30px;
 		border: 0;
 		cursor: pointer;
@@ -2558,7 +2559,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(74, 123, 134, 0.15);
+			background-color: rgba(10, 186, 181, 0.15);
 		}
 
 		input[type="submit"]:active,
@@ -2566,7 +2567,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(74, 123, 134, 0.15);
+			background-color: rgba(10, 186, 181, 0.15);
 		}
 
 		input[type="submit"].icon,
@@ -2650,7 +2651,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #4a7b86;
+			background-color: #1a99aa;
 			color: #ffffff !important;
 		}
 
@@ -2667,7 +2668,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #3a7584;
+				background-color: #009baa;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2706,7 +2707,7 @@
 	}
 
 		.subpage #header {
-			background: #4a7b86;
+			background: #1a99aa;
 			top: 0;
 			height: 44px;
 			line-height: 44px;
@@ -2734,6 +2735,7 @@
 		#header .logo {
 			color: #ffffff;
 			display: inline-block;
+			font-family: 'Peralta', cursive;
 			font-weight: 400;
 			height: inherit;
 			left: 0;
@@ -2847,8 +2849,8 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #4a7b86;
-		color: #cbeef1;
+		background: #1a99aa;
+		color: #e5f4ed;
 		height: 100%;
 		max-width: 80%;
 		width: 20em;
@@ -2866,8 +2868,8 @@
 		}
 
 		#navPanel a:not(.close) {
-			border-top: solid 1px #57999e;
-			color: #cbeef1;
+			border-top: solid 1px #1db8ce;
+			color: #e5f4ed;
 			font-weight: 600;
 			display: block;
 			padding: 0.75em 0;
@@ -2887,7 +2889,7 @@
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
-			color: #cbeef1;
+			color: #e5f4ed;
 			cursor: pointer;
 			display: block;
 			height: 4em;
@@ -2925,19 +2927,14 @@
 /* Banner */
 
 	#banner {
-		padding: 6em 0 6em 0;
-		background-image: url(../../images/banner.jpg);
-		background-size: cover;
-		background-position: bottom;
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		text-align: center;
+		padding: 3em 0 1em 0;
+		background-color: #1a99aa;
 		position: relative;
 	}
 
 		#banner:before {
 			content: '';
-			background: rgba(75, 75, 93, 0.85);
+			background-color: #1a99aa;
 			position: absolute;
 			width: 100%;
 			height: 100%;
@@ -2951,38 +2948,36 @@
 		}
 
 		#banner h1 {
+			font-family: 'Peralta', cursive;
 			font-size: 3.5em;
 			font-weight: 400;
 			color: #fff;
 			line-height: 1em;
-			margin: 0 0 1em 0;
+			margin: 0;
 			padding: 0;
 		}
 
 		#banner h3 {
 			font-weight: 400;
 			color: #fff;
-			margin: 0;
+			margin: 0 0 1em 0;
 			font-size: 1.5em;
 		}
 
 		#banner .icon {
-			color: #4a7b86;
+			color: #1a99aa;
 			font-size: 2em;
 		}
+        
+        #banner i {
+            color: #fff;
+            font-size: 2em;
+        }
 
 		#banner p {
 			font-size: 1em;
 			color: rgba(255, 255, 255, 0.55);
 			margin-bottom: 1.75em;
-		}
-		
-		#banner a img {
-			box-shadow:0 1em 6em #57999e;
-		}
-		
-		#banner a:hover img {
-			box-shadow:0 1em 6em #ffffff;
 		}
 
 		#banner .flex {
@@ -3032,11 +3027,11 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 6em 0 6em 0;
+				padding: 3em 0 1em 0;
 			}
 
 				#banner .inner {
-					padding-top: 6em;
+					/* padding-top: 6em; */
 				}
 
 				#banner h1 {
@@ -3057,11 +3052,11 @@
 
 			#banner {
 				background-attachment: scroll;
-				padding: 5em 0 4em 0;
+				padding: 3em 0 1em 0;
 			}
 
 				#banner .inner {
-					padding-top: 4em;
+					/* padding-top: 4em; */
 				}
 
 				#banner h1 {
@@ -3082,11 +3077,11 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 4em 0 3em 0;
+				padding: 3em 0 1em 0;
 			}
 
 				#banner .inner {
-					padding-top: 3em;
+					/* padding-top: 3em; */
 				}
 
 				#banner h1 {
@@ -3117,7 +3112,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner h1 {
-				font-size: 1.5em;
+				font-size: 2em;
 			}
 
 		}
@@ -3125,12 +3120,16 @@
 /* Footer */
 
 	#footer {
-		padding: 1em 0;
-		background: #4a7b86;
+		padding: 2em 0;
+		background: #1a99aa;
 		color: #fff;
 		text-align: center;
 	}
 
+		#footer h2 {
+			color: #FFF;
+		}
+        
 		#footer h3 {
 			color: #FFF;
 			margin-bottom: 2em !important;
@@ -3144,7 +3143,7 @@
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
-			margin: 0 0 2em 0;
+			margin: 2em 0;
 			padding: 0;
 		}
 
