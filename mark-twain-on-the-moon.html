@@ -20,65 +20,80 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 
 		<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"7f2dcd812f046dc2787d41902","lid":"ec1ac9d082"}) })</script>
-		
+
 <script type="application/ld+json">
 {
-  "@context":  "http://schema.org/",
-  "@id": "#book",
-  "@type": "Book",
-  "abridged": "false",  
-  "additionalType": "Product",
-  "author": {
-    "@type": "Person",
-    "name": "Michael Schulkins",
-    "sameAs": "http://michaelschulkins.com"
-  }, 
-  "bookFormat": "EBook",
-  "copyrightHolder": {
-    "@type": "Person",
-    "name": "Michael Schulkins",
-    "sameAs": "http://michaelschulkins.com"
-  }, 
-  "copyrightYear": "2019",
-  "description": "Mark Twain travels to the mining camps of America's wildest frontier - the Moon - in search of wonders, adventure, and a fortune in precious water ice.",
-  "genre": "Science Fiction & Fantasy > Science Fiction > Humorous",
-  "image": "images/mark-twain-on-the-moon-prospectors.jpg", 
-  "inLanguage": "en-US",
-  "isbn": "9781370499892",
-  "name": "Mark Twain on the Moon Book One: Prospectors!",
-  "numberOfPages": "147",
-  "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "$4.99",
-    "lowPrice": "$0.99",
-    "offerCount": "5",
-    "offers": [
-      {
-        "@type": "Offer",
-		"category": "EBook", 
-        "price": "0.99",
-        "priceCurrency": "USD",
-		"offeredBy": {
-          "@type": "Organization",
-          "@id": "https://www.amazon.com",
-          "name": "Amazon"
-        },
-        "url": "https://www.amazon.com/dp/B07NVZBPFJ"
-      },
-      {
-        "@type": "Offer",
-		"category": "Paperback", 
-        "price": "4.99",
-        "priceCurrency": "USD",
-		"offeredBy": {
-          "@type": "Organization",
-          "@id": "https://www.amazon.com",
-          "name": "Amazon"
-        },
-        "url": "https://www.amazon.com/dp/B07NVZBPFJ" 
-      }
-    ]
-  }
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@id": "#author",
+      "@type": "Person",
+      "name": "Michael Schulkins",
+      "sameAs": "http://michaelschulkins.com"
+    },
+    {
+      "@id": "#series",
+      "@type": "Book",
+      "about": "http://michaelschulkins.com/mark-twain-on-the-moon",
+      "hasPart": [
+        {
+          "@id": "#book1",
+          "@type": [
+            "Book",
+            "PublicationVolume",
+            "Product"
+          ],
+          "name": "Mark Twain on the Moon Book One: Prospectors!",
+          "about": "http://michaelschulkins.com/mark-twain-on-the-moon",
+          "isPartOf": "#series",
+          "inLanguage": "en",
+          "description": "Mark Twain travels to the mining camps of America's wildest frontier - the Moon - in search of wonders, adventure, and a fortune in precious water ice.",
+          "genre": "Science Fiction & Fantasy > Science Fiction > Humorous",
+          "image": "images/mark-twain-on-the-moon-prospectors.jpg", 
+          "volumeNumber": "1",
+          "author": "#author",
+          "offers": {
+              "@type": "AggregateOffer",
+              "highPrice": "$4.99",
+              "lowPrice": "$0.99",
+              "offerCount": "5",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "category": "EBook", 
+                  "price": "0.99",
+                  "priceCurrency": "USD",
+                  "offeredBy": {
+                    "@type": "Organization",
+                    "@id": "https://www.amazon.com",
+                    "name": "Amazon"
+                  },
+                  "url": "https://www.amazon.com/dp/B07NVZBPFJ"
+                },
+                {
+                  "@type": "Offer",
+                  "category": "Paperback", 
+                  "price": "4.99",
+                  "priceCurrency": "USD",
+                  "offeredBy": {
+                    "@type": "Organization",
+                    "@id": "https://www.amazon.com",
+                    "name": "Amazon"
+                  },
+                  "url": "https://www.amazon.com/dp/B07NVZBPFJ" 
+                }
+              ]
+          }
+        }
+      ],
+      "name": "Mark Twain on the Moon",
+      "inLanguage": "en",
+      "description": "Mark Twain travels to the mining camps of America's wildest frontier - the Moon - in search of wonders, adventure, and a fortune in precious water ice.",
+      "genre": "Science Fiction & Fantasy > Science Fiction > Humorous",
+      "image": "images/mark-twain-on-the-moon-prospectors.jpg", 
+      "author": "#author"
+    }
+  ]
 }
 </script>
 		
