@@ -61,7 +61,7 @@
               "@type": "AggregateOffer",
               "highPrice": "$14.95",
               "lowPrice": "$0.99",
-              "offerCount": "2",
+              "offerCount": "3",
               "offers": [
                 {
                   "@type": "Offer",
@@ -101,18 +101,67 @@
                 }
               ]
           }
+        },
+        {
+          "@id": "#book2",
+          "@type": [
+            "Book",
+            "PublicationVolume",
+            "Product"
+          ],
+          "name": "Mark Twain on the Moon Book Two: The Deirdre",
+          "about": "http://michaelschulkins.com/mark-twain-on-the-moon",
+          "isPartOf": "#series",
+          "inLanguage": "en",
+          "description": "Life inside the Moon turns deadly, and soon Sam Clemens needs all of his wits, and a six-gun, to keep himself and his fellow miners alive.",
+          "genre": "Science Fiction & Fantasy > Science Fiction > Steampunk",
+          "image": "images/mark-twain-on-the-moon-deirdre.jpg", 
+          "volumeNumber": "2",
+          "author": "#author",
+          "offers": {
+              "@type": "AggregateOffer",
+              "highPrice": "$8.99",
+              "lowPrice": "$2.99",
+              "offerCount": "2",
+              "offers": [
+                {
+                  "@type": "Offer",
+                  "category": "EBook", 
+                  "price": "2.99",
+                  "priceCurrency": "USD",
+                  "offeredBy": {
+                    "@type": "Organization",
+                    "@id": "https://www.amazon.com",
+                    "name": "Amazon"
+                  },
+                  "url": "https://www.amazon.com/Mark-Twain-Moon-Book-Two-ebook/dp/B07PJMLRQ7/"
+                },
+                {
+                  "@type": "Offer",
+                  "category": "Paperback", 
+                  "price": "8.99",
+                  "priceCurrency": "USD",
+                  "offeredBy": {
+                    "@type": "Organization",
+                    "@id": "https://www.amazon.com",
+                    "name": "Amazon"
+                  },
+                  "url": "https://www.amazon.com/Mark-Twain-Moon-Book-Two/dp/1798066092/" 
+                }
+              ]
+          }
         }
       ],
       "name": "Mark Twain on the Moon",
       "inLanguage": "en",
-      "description": "Mark Twain travels to the mining camps of America's wildest frontier - the Moon - in search of wonders, adventure, and a fortune in precious water ice.",
+      "description": "A steampunk and alternate history bestseller! Mark Twain travels to the mining camps of America's wildest frontier - the Moon - in search of wonders, adventure, and a fortune in precious water ice.",
       "genre": "Science Fiction & Fantasy > Science Fiction > Steampunk",
       "image": "images/mark-twain-on-the-moon-prospectors.jpg", 
       "author": "#author"
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.4",
-        "reviewCount": "7"
+        "ratingValue": "4.6",
+        "reviewCount": "14"
       }
     }
   ]
@@ -143,14 +192,11 @@
 			<section id="main" class="wrapper">
 				<div class="inner">
 				
-					<span class="image left"><img src="images/mark-twain-on-the-moon-prospectors.jpg" alt="Mark Twain on the Moon - a series by Michael Schulkins" title="Mark Twain on the Moon" /></span>
+					<span class="image left"><img src="images/mark-twain-on-the-moon-prospectors.jpg" alt="Mark Twain on the Moon Book One: Prospectors!" title="Mark Twain on the Moon Book One: Prospectors!" /></span>
 					<h2>Mark Twain on the Moon Book One: Prospectors!</h2>
+                    <p><strong>A steampunk and alternate history bestseller!</strong></p>
 					<p>In an alternate 19th century, young Samuel Clemens sets out for the mining camps of America’s wildest frontier: the Moon. Travel with Sam and his partner Calvin as they venture into the desolate, deadly wastes of the Mare Imbrium and the Montes Caucasus, in search of wonders, adventure, and a fortune in precious water ice.</p>
                     <p>This is <em>Prospectors!</em>, the opening salvo in the epic saga of Mark Twain on the Moon, as told by the alternate Mark Twain himself.</p>
-                    <blockquote cite="https://www.amazon.com/gp/product/B07NVZBPFJ/"><p>"Right from the the first paragraph, the reader is drawn into a time and setting (though exotic) that will be familiar to any fan of Mark Twain. The book follows the same easy style of description, banter, and wit as most of the protagonist's best novels. A thoroughly engrossing and refreshingly different story.</p>
-                    <p>Michael Schulkins leaves me asking, has a new Mark Twain adventure been discovered in a trunk somewhere?"</p>
-                    <footer>—<cite>D. Murray</cite></footer>
-                    </blockquote>
 
 					<div class="row">
 						<div class="3u 12u$(small)">
@@ -175,9 +221,35 @@
 						</div>
 					</div>
                     
+                    
+					<span class="image right"><img src="images/mark-twain-on-the-moon-deirdre.jpg" alt="Mark Twain on the Moon Book Two: The Deirdre" title="Mark Twain on the Moon Book Two: The Deirdre" /></span>
+					<h2>Mark Twain on the Moon Book Two: The Deirdre</h2>
+					<p>The amazing, perilous, sometimes hilarious adventures of Samuel Clemens on the Moon continue in <em>The Deirdre</em>, book two of the Mark Twain on the Moon saga.</p>
+                    <p>At the end of book one, <em>Prospectors!</em>, Sam and his partner Calvin found themselves stranded in a remote crater, down to their last cylinder of air.</p>
+                    </p>In book two, they are dramatically rescued by the men of The Deirdre, an ice mine on the crater’s rim, and forced into indentured servitude, digging for ice deep under the surface of the Moon. But when the Deirdres jump a neighboring claim, and no-nonsense Calvin hears the cries of a long-dead miner on his radio, life inside the Moon turns deadly, and soon Sam needs all of his wits, and a six-gun, to keep himself and the Deirdres alive.</p>
+
+					<div class="row">
+						<div class="4u 12u$(small)">
+							<ul class="actions fit">
+								<li><a href="https://amzn.to/2IubnhN" class="button fit">Amazon</a></li>
+							</ul>
+						</div>
+						<div class="4u 12u$(small)">
+							<ul class="actions fit">
+								<li><a href="https://www.goodreads.com/book/show/44601605-mark-twain-on-the-moon-book-two" class="button fit">Goodreads</a></li>
+							</ul>
+						</div>
+						<div class="4u 12u$(small)">
+							&nbsp;
+						</div>
+						<div class="4u 12u$(small)">
+							&nbsp;
+						</div>
+					</div>
+                    
 					<!-- Begin MailChimp Signup Form -->
 					<div id="mc_embed_signup">
-					<h4>Enter your email for a free preview of this book:</h4>
+					<h4>Enter your email for a free preview of this series:</h4>
 					<form action="https://michaelschulkins.us12.list-manage.com/subscribe/post?u=7f2dcd812f046dc2787d41902&amp;id=ec1ac9d082&SIGNUP=MTOTM" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					<div id="mce-responses" class="clear">
 						<div class="response" id="mce-error-response" style="display:none"></div>
