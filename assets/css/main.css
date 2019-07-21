@@ -1696,7 +1696,8 @@
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1em;
+        font-weight: 700;
 	}
 
 	h6 {
