@@ -1804,17 +1804,9 @@
 		padding: 3em 0;
 	}
 
-		section.wrapper header, article.wrapper header {
-			margin-bottom: 4em;
-		}
-
 			section.wrapper header h2, article.wrapper header h2 {
 				font-size: 2.75em;
 				margin: 0 0 .5em 0;
-			}
-
-			section.wrapper header p, article.wrapper header p {
-				font-size: 1em;
 			}
 
 		section.wrapper article header, article.wrapper article header {
@@ -1835,16 +1827,8 @@
 				padding: 3em 0;
 			}
 
-				section.wrapper header, article.wrapper header {
-					margin-bottom: 2em;
-				}
-
 					section.wrapper header h2, article.wrapper header h2 {
 						font-size: 2em;
-					}
-
-					section.wrapper header p, article.wrapper header p {
-						font-size: .9em;
 					}
 
 		}
@@ -1858,7 +1842,7 @@
 		}
 
 	header p {
-		color: #bbb;
+        font-weight: 700;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
